@@ -87,7 +87,7 @@ DATABASES = {
 #         'ENGINE': 'django.db.backends.mysql', 
 #         'NAME': 'portfolio_db',
 #         'USER': 'root',
-#         'PASSWORD': '',
+#         'PASSWORD': 'Aman163Harsh185',
 #         'HOST': 'localhost',   # Or an IP Address that your DB is hosted on
 #         'PORT': '3306',
 #     }
@@ -135,6 +135,7 @@ MEDIA_URL = '/images/'
 # STATICFILES_DIRS = [
 #     os.path.join(BASE_DIR, 'static')
 # ]
-STATIC_ROOT = os.path.join(BASE_DIR, "static/")
+
 # MEDIA_ROOT = os.path.join(BASE_DIR, 'static/images')
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+STATIC_ROOT = os.path.join(BASE_DIR, "static/")
