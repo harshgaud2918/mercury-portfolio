@@ -14,6 +14,4 @@ RUN python my_portfolio/manage.py makemigrations
 
 RUN python my_portfolio/manage.py migrate
 
-RUN python my_portfolio/manage.py collectstatic
-
 CMD [ "python", "my_portfolio/manage.py", "runserver", "0.0.0.0:8000" ]
